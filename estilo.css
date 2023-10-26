@@ -1,81 +1,94 @@
-.body{
-    margin: 0 px;
+body{
+    font-family: 'Montserrat', sans-serif;
 }
 .limitador{
     max-width: 1200px;
     margin: 0 auto;
-}
-.limitador2{
-    max-width: 800px;
-    margin: 0 auto;
+    padding: 20px;
 }
 .centralizar{
     text-align: center;
 }
 .esquerdo{
     text-align: left;
-    padding-top: 30px;
+    padding-top: 15px;
 }
 .padding{
-    padding: 20px 0 50px 0;
+    padding: 20px 0;
+}
+.padding02{
+    padding: 50px 0 10px 0;
 }
 .pagina01{
-    padding: 250px 100px 250px 100px;
-    background-color: rgb(218, 210, 210);
+    background-image: url(imagens/fundo.png);
+    background-position: center;
+    padding: 150px 0;
+    background-color: rgb(235, 235, 235);
     background-size: cover;
-    color: rgb(84, 72, 46);
-}
-.button{
-    border-radius: 10px;
-    background-color: rgb(203, 175, 150);
-    color: white;
-    padding: 8px 18px; 
-    font-size: 12px;
-    border-radius: 20px;
-    margin: 25px auto;
-    text-align: center;
-}
-.button2{
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%); /* Adicione esta linha para centralizar o botão */
-    border-radius: 20px;
-    background-color: rgb(255, 255, 255);
-    color: rgb(75, 56, 7);
-    padding: 8px 18px;
-    font-size: 12px;
-    border: none;
+    color: rgb(82, 99, 69);
 }
 .pagina02{
-    padding: 150px 100px 150px 100px;
-    background-color: rgb(186, 176, 176);
+    padding: 100px 0;
+    background-color: rgb(192, 180, 180);
     background-size: cover;
-    color: rgb(84, 72, 46);
+    color: white;
 }
 .pagina03{
-    padding: 150px 100px 150px 100px;
+    padding: 100px 0;
     background-color: rgb(255, 255, 255);
     background-size: cover;
-    color: rgb(84, 72, 46);
-}
-.texto01{
-    color: white;
-    text-align: center;
-}
-.textos{
-    color: rgba(255, 255, 255, 0.5);
-    margin: 15px 0 40px 0;
+    color: rgb(97, 116, 81);
 }
 .pagina04{
-    padding: 150px 100px 150px 100px;
-    background-color: rgba(211, 200, 200, 0.836);
+    padding: 100px 0;
+    background-color: #b98f7bb0;
     background-size: cover;
-    color: rgb(84, 72, 46);
+    color: white;
 }
-.container2{
+.botao01{
+    position: relative;
+    display: inline-block;
+    border: none;
+    padding: 8px 18px; 
+    text-decoration: none;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 20px;
+    background-color: rgb(203, 175, 150);
+    color: white;
+    font-size: 13px;
+    margin: 15px auto;
+    transition: background .3s, color .3s, transform .3s;
+}
+.botao01:hover {
+    background-color: rgb(97, 116, 81);
+    color: white;
+    transform: scale(1.1);
+    text-decoration: none;
+}
+.botao02{
+    position: relative;
+    display: inline-block;
+    border: none;
+    padding: 8px 18px; 
+    text-decoration: none;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 20px;
+    background-color: white;
+    color: rgb(203, 175, 150);
+    font-size: 13px;
+    margin: 15px auto;
+    transition: background .3s, color .3s, transform .3s;
+}
+.botao02:hover {
+    color: rgb(203, 175, 150);
+    transform: scale(1.1);
+    text-decoration: none;
+}
+.container02{
     height: 350px;
-    background-size: cover;
+    background-size: contain;
     width: 350px;
     background-image: url('./imagens/doistropicos.jpg');
     position: relative;
@@ -83,12 +96,5 @@
 .image{
     max-width: 100%;
     height: auto;
-    width: 600px;
-}
-
-.gif-debis {
-    max-width: 100%;
-    height: auto;
-    width: 350px;
-    max-height: 350px;
+    width: 400px;
 }
