@@ -29,7 +29,7 @@ body{
 }
 .pagina02{
     padding: 100px 0;
-    background-color: rgb(192, 180, 180);
+    background-color: #b98f7bb0;
     background-size: cover;
     color: white;
 }
@@ -41,7 +41,7 @@ body{
 }
 .pagina04{
     padding: 100px 0;
-    background-color: #b98f7bb0;
+    background-color: rgba(97, 116, 81, 0.685);
     background-size: cover;
     color: white;
 }
@@ -76,13 +76,13 @@ body{
     cursor: pointer;
     border-radius: 20px;
     background-color: white;
-    color: rgb(203, 175, 150);
+    color: rgba(97, 116, 81, 0.685);
     font-size: 13px;
     margin: 15px auto;
     transition: background .3s, color .3s, transform .3s;
 }
 .botao02:hover {
-    color: rgb(203, 175, 150);
+    color: rgba(97, 116, 81, 0.685);
     transform: scale(1.1);
     text-decoration: none;
 }
